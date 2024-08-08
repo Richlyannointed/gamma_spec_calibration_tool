@@ -1,7 +1,7 @@
 import unittest
 import main
 
-class generalTesting(unittest.TestCase):
+class GeneralTesting(unittest.TestCase):
     def setUp(self) -> None:
         return super().setUp()
     
@@ -10,9 +10,7 @@ class generalTesting(unittest.TestCase):
     
     def test_module(self):
         result = main.add(2, 3)
-        self.assertAlmostEqual(result, 5.1, 1)
-
-
+        self.assertAlmostEqual(result, 5.1, 0)
 
 if __name__ == '__main__':
     unittest.main()

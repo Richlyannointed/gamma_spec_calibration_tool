@@ -1,2 +1,3 @@
 venv
 .securikey.txt
+__pycache__
